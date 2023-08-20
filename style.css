@@ -107,6 +107,10 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+footer span{
+  margin-right: 5px;
+}
+
 iframe, #game {
   /* border: #ffffff solid 4px; */
   margin: 15px auto;
@@ -137,6 +141,10 @@ iframe, #game {
 #link:hover {
   color: white;
   border: 0;
+}
+
+#eggboy {
+  max-width: 450px;
 }
 
 /* Add media queries for responsiveness */
