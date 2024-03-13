@@ -111,27 +111,6 @@ footer span{
   margin-right: 5px;
 }
 
-iframe, #game {
-  /* border: #ffffff solid 4px; */
-  margin: 15px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 640px;
-  height: 480px;
-  background-color: white;
-  color: black;
-}
-
-#game h2 {
-  text-shadow: none;
-}
-
-.comic {
-  width: 825px;
-  height: 825px;
-}
-
 #link {
   color: white;
   border-bottom: 1px solid white;
@@ -141,10 +120,6 @@ iframe, #game {
 #link:hover {
   color: white;
   border: 0;
-}
-
-#eggboy {
-  max-width: 450px;
 }
 
 /* Mobile devices */
@@ -177,17 +152,7 @@ iframe, #game {
     font-size: 1.5rem;
   }
 
-  #eggboy {
-    max-width: 100%; /* Ensure the image fits the screen width */
-    height: auto; /* Maintain the aspect ratio */
-  }
-
-  iframe, #game {
-    width: 100%;
-    height: auto;
-  }
-
-  .comic {
+  iframe {
     width: 100%;
     height: auto;
   }
