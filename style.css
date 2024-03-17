@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-body {
+html, body {
   font-family: "Ubuntu", Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: #bfbfbf;
@@ -92,9 +92,26 @@ main h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
 }
 
+p, .post-meta span {
+  text-shadow: black 2px 2px; 
+  font-weight: bold;
+}
+
 main h2, h3 {
   max-width: 450px;
   margin: 0 auto;
+}
+
+.post-content {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.post-meta{
+  margin-top: -20px;
+  text-align: left;
 }
 
 footer {
@@ -120,6 +137,10 @@ footer span{
 #link:hover {
   color: white;
   border: 0;
+}
+
+.post-meta{
+  margin-bottom: 20px;
 }
 
 /* Mobile devices */
