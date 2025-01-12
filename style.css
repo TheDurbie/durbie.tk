@@ -102,6 +102,10 @@ main h2, h3 {
   margin: 0 auto;
 }
 
+.post-title{
+  text-align: center;
+}
+
 .post-content {
   max-width: 500px;
   margin: 0 auto;
@@ -111,7 +115,7 @@ main h2, h3 {
 
 .post-meta{
   margin-top: -20px;
-  text-align: left;
+  text-align: center;
 }
 
 footer {
@@ -142,6 +146,29 @@ footer span{
 .post-meta{
   margin-bottom: 20px;
 }
+
+.blogthing{
+  margin: 0 auto;
+  margin-bottom: 7px;
+  font-size: 22px;
+  padding-left: 2px;
+  width: 600px;
+  border: 4px solid black;
+  background-color: #205081;
+  text-align: left;
+  text-shadow: black 3px 3px;
+  font-weight: bold;
+  color: white;
+}
+
+.blogthing:hover{
+  cursor: pointer;
+}
+
+small{
+  font-weight: normal;
+}
+
 
 /* Mobile devices */
 @media screen and (max-width: 480px) {
